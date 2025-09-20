@@ -89,6 +89,7 @@ function Home() {
         <input placeholder='Digite seu nome:' name='nome' type='text' ref={inputNome} />
         <input placeholder='Digite sua idade:' name='idade' type='number' ref={inputIdade} />
         <input placeholder='Digite seu email:' name='email' type='email' ref={inputEmail} />
+        
         //se tiver, faz primeira parte, senao, faz a segunda
         {editandoId ? (
           <button type='button' onClick={atualizaUsuario}>Atualizar</button>
